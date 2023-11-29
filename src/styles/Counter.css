@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#f5f7fa;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+.container h1{
+    color: #3498db;
+    font-size: 2em;
+    letter-spacing: .1rem;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container p{
+    color: #6c7a89;
+    font-size: 1.2em;
+    line-height: 1.4;
+    font-weight: 300;
+    max-width: 60%;
+    margin: auto;
+    
+}
+.container h3 span{
+    color: #ff4d6a;    
+}
+
+.container button{
+    border-radius: 5px; 
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease;
+    width: 200px;
+    height: 40px;
+    background-color: #6c8bfa;
+    border:none;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;    
+}
