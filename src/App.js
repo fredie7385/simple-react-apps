@@ -2,12 +2,13 @@
 // import Todo from './components/Todo';
 // import Meal_Api from './components/Meal_Api';
 // import Calculator from './components/Calculator';
-import ToggleColor from "./components/ToggleColor"
+// import ToggleColor from "./components/ToggleColor";
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
     <> 
-      <ToggleColor/>
+      <Testimonials/>
     </>
   )
 }
