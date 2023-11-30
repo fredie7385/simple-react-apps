@@ -1,10 +1,11 @@
-// import Counter from "./components/Counter"
-import Todo from './components/Todo'
+// import Counter from "./components/Counter";
+// import Todo from './components/Todo';
+import Meal_Api from './components/Meal_Api';
 
 function App() {
   return (
     <> 
-      <Todo/>
+      <Meal_Api/>
     </>
   )
 }
