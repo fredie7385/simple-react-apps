@@ -31,9 +31,7 @@ function Todo() {
         onChange={(e) => setInput(e.target.value)}
         placeholder="New Todo"
       />
-
       <button onClick={handleSubmit}>Submit</button>
-
       <ul className="todos-list">
         {todos.map(({ text, id }) => (
           <li key={id} className="todo">

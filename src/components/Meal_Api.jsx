@@ -15,13 +15,15 @@ function Meal_API() {
   },[]);
   const itemList = items.map(({strMeal, strMealThumb, idMeal}) =>{
     return (
+      <>
       <section className="card">      
-        <img src={strMealThumb}/>
+        <img src={strMealThumb} alt='#'/>
         <section className="content">
           <p>{strMeal}</p>
           <p>#{idMeal}</p>
         </section>
       </section>
+      </>
     )
   })
   return <div className="items-container">{itemList}</div>

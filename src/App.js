@@ -1,11 +1,12 @@
 // import Counter from "./components/Counter";
 // import Todo from './components/Todo';
-import Meal_Api from './components/Meal_Api';
+// import Meal_Api from './components/Meal_Api';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <> 
-      <Meal_Api/>
+      <Calculator/>
     </>
   )
 }
